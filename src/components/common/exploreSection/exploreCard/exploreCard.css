@@ -1,0 +1,62 @@
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.explore-card-cover{
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.delivery-time{
+    position: absolute;
+    bottom: 10px;
+    background-color: red;
+    color: yellow;
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+
+}
+
+
+
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+.res-rating{
+    overflow: auto;
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: yellow;
+    background-color: green;
+    border-radius: 6px;
+    height: 24px;
+}
